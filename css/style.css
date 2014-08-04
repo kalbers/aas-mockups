@@ -1,0 +1,116 @@
+body {}
+
+h1, h2, h3, h4 {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+h3, .panel h3 {color:rgb(190,58,52)}
+a {color: rgba(0,45,114,0.6);}
+a:hover {color:#ff8000;}
+
+header {
+	margin-top:10px;
+	margin-bottom: 20px;
+}
+
+header h2 {
+	margin-bottom: 0;
+	margin-top:.5rem;
+}
+
+.panel {
+	background:none;
+	border:5px solid rgba(0,45,114,0.8);
+}
+
+header h4 {font-style: italic;color:#444;}
+
+#aas-logo img {
+	width:100px;
+	float:right;
+	margin-right:10px;
+}
+
+#aas-logo p {
+	font-style: italic;
+	color:#777;
+}
+
+.lace-border {min-height:10px;background: url(../img/lace-10.png) bottom repeat-x;}
+
+#nav {
+	background-color: rgba(0,45,114,0.8);
+	padding:10px 0;
+}
+
+#nav a, #nav span {
+	display: inline-block;
+	padding-top: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 1.0625rem;
+	padding-left: 2rem;
+	color:#fff;
+}
+
+#nav span {
+	padding:0;
+	padding-top: 5px;
+}
+
+#nav a {
+	text-align:center;
+}
+
+#nav a:hover {
+	color:#ff8000;
+}
+
+#nav input {
+	margin:0;
+}
+
+#featured {
+	padding:0 10px;
+/*	background: url(/img/flower-string-15.png) center bottom repeat-x;*/
+/*	background:url(/img/flower-string-vertical.png) left repeat-y, url(/img/flower-string-vertical.png) right repeat-y;
+*/}
+#featured img {}
+
+#featured h3 {
+/*	background: url(/img/flower-string-15.png) bottom repeat-x;
+*//*	padding-bottom: 15px;*/
+	margin-bottom: 5px;
+}
+
+#featured-essays {
+	background: url(../img/divider.png) center bottom no-repeat;
+	margin-top:20px;
+	padding-bottom:100px;
+}
+
+#featured-essays p {
+	margin-bottom: .5rem;
+}
+
+#essay-1, #essay-2 {
+	background:url(../img/flower-string-vertical.png) right repeat-y;
+}
+
+footer {
+	/*background:url(/img/diamond-25.png) top repeat-x;*/
+	/*margin-top:40px;*/
+	padding:35px 0 0;
+	position: relative;
+}
+
+footer:after {
+	content : "";
+    display: block;
+	position: absolute;
+	top: 0;
+    left: 0;
+	background:url(../img/header-banner.png) bottom repeat-x;
+	width: 100%;
+    height: 100%;
+    opacity : 0.15;
+    z-index: -1;
+}
